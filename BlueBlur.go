@@ -31,6 +31,7 @@ extern void _wrap_Swig_free_BlueBlur_e0642085f91c8d6e(uintptr_t arg1);
 extern uintptr_t _wrap_Swig_malloc_BlueBlur_e0642085f91c8d6e(swig_intgo arg1);
 #undef intgo
 */
+#cgo LDFLAGS: -L./BlueBlur/ -lBlueBlur
 import "C"
 
 import "unsafe"
