@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-// source: .\swig\blueblur.i
+// source: swig\blueblur.i
 
 
 
@@ -176,8 +176,8 @@
 
 
 
-typedef long long intgo;
-typedef unsigned long long uintgo;
+typedef ptrdiff_t intgo;
+typedef size_t uintgo;
 
 
 # if !defined(__clang__) && (defined(__i386__) || defined(__x86_64__))

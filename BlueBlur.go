@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-// source: .\swig\blueblur.i
+// source: swig\blueblur.i
 
 package BlueBlur
 
@@ -18,8 +18,8 @@ typedef void *swig_voidp;
 #include <stdint.h>
 
 
-typedef long long intgo;
-typedef unsigned long long uintgo;
+typedef ptrdiff_t intgo;
+typedef size_t uintgo;
 
 
 
